@@ -233,6 +233,16 @@ body {
   }
 }
 
+@media (max-width: 1100px) {
+  .color-list{
+    flex-wrap: wrap;
+  }
+  .color-item{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 940px) {
   .images-new{
     display: none;
@@ -257,5 +267,9 @@ body {
     font-size: 18px;
     line-height: 22px;
     padding: 16px 90px;
+  }
+  .color-item,
+  .color-item img{
+    width: 100%;
   }
 }
